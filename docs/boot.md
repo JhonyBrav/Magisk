@@ -67,9 +67,9 @@ With all the knowledge above, now we can categorize all Android devices into the
 
 Type | Boot Method | Partition | 2SI | Ramdisk in `boot`
 :---: | :---: | :---: | :---: | :---:
-**I** | A | A-only | No | `boot` ramdisk
-**II** | B | A/B | Any | `recovery` ramdisk
-**III** | B | A-only | Any | ***N/A***
+**I** | A | A-only | yes | `boot` ramdisk
+**II** | B | A/B | yes | `recovery` ramdisk
+**III** | B | A-only | yes| Hybrid ramdisk
 **IV** | C | Any | Yes | Hybrid ramdisk
 
 These types are ordered chronologically by the time they were first available.
